@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<style>
+
+a {
+    margin:0;
+    padding:0;
+    color:black;
+    text-decoration:none;
+}
+
+body {
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.nav li ul {
+    text-decoration:none;
+    margin:6px 0 0 0;
+    padding:0;
+    display:none;
+    position:absolute;
+    left:0;
+}
+
+.nav li {
+    padding:5px 10px;
+    margin-right:0.25%;
+    margin-right:0.25%;
+    border-radius:5px;
+    border:#A9A9A9 1px solid;
+    list-style:none;
+    display:inline-block;
+    font-size:15px;
+    background:#DCDCDC;
+    position:relative;
+} 
+
+.nav > li > a:hover {
+    background:#DCDCDC;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+</style>
+</head>
+<body>
+
+<ul class="nav">
+    <li class="parent"><a href="#">Home</a></li>
+    <li class="parent"><a href="#">News</a></li>
+    <li class="parent"><a href="#">Accepted Papers</a></li>
+    <li class="parent"><a href="#">Awards</a></li>
+    <li class="parent"><a href="#">Program</a>
+        <ul>
+            <li><a href="#">Introduction for Presentations</a></li>
+            <li><a href="#">Program Handbook</a></li>
+            <li><a href="#">Invited Speakers</a></li> 
+        </ul>
+    </li>
+    <li class="parent"><a href="#">Organization</a>
+        <ul>
+            <li><a href="#">Hosts & Sponsors</a></li>
+            <li><a href="#">Organization Team</a></li>
+            <li><a href="#">Program Commitee</a></li>
+        </ul>
+    </li>
+    <li class="parent"><a href="#">Call For Papers</a>
+        <ul>
+            <li><a href="#">Main Conference</a>
+                <ul>
+                    <li><a href="#">International</a>
+                        <ul>
+                            <li><a href="#">AIIS</a></li>
+                            <li><a href="#">IHB</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Domestic</a></li>   
+                </ul>
+            </li>
+            <li><a href="#">Workshops</a></li>
+            <li><a href="#">Demos & Exhibition</a></li>
+            <li><a href="#">Game Tournaments</a></li>
+        </ul>
+    </li>
+    <li class="parent"><a href="#">Registration</a>
+        <ul>
+            <li><a href="#">International</a></li>
+            <li><a href="#">Domestic</a></li>    
+        </ul> 
+    </li>
+    <li class="parent"><a href="#">Information Service</a>
+        <ul>
+            <li><a href="#">Accommodation</a></li>
+            <li><a href="#">Transportation</a></li>
+        </ul>
+    </li>       
+</ul>
+
+</body>
+</html>
