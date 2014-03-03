@@ -1,7 +1,7 @@
 .pictureBox {
     height: 200px; width: 950px;
     background: red;
-    margin: 0px auto;
+    margin: 5px auto;
     padding: 0px;
 }
 
@@ -15,7 +15,7 @@
 .context {
     height: 1000px;
     width: 800px;
-    margin: 5px auto;
+    margin: 0px auto;
     padding: 0px;
     background: blue;
 }
