@@ -27,11 +27,15 @@
     padding: 0;
 }
 
-.menubar { 
-    margin: 20px 12% 10px 13%;
+.menubar {
+    margin: 20px auto;
     padding:0;
 }
-
+.nav{
+    width:986px;
+    margin:auto;
+    float:none;
+}
 .container {
     margin-top: 100px;
     max-width: 50em;
@@ -53,7 +57,7 @@
     position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu { 
+.dropdown-submenu > .dropdown-menu {
     top:0;
     left:100%;
     margin-top:-6px;
