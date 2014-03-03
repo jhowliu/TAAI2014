@@ -1,110 +1,132 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<style>
+    <title>TAAI 2014 Conference</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="bootstrap-hover-dropdown.min.js"></script>
+    </head>    
+    <style>
+        body { 
+            margin: 50px 15% 10px 10%;
+            padding:0;
+        }
+        
+        .container {
+            margin-top: 100px;
+            max-width: 50em;
+        }
 
-a {
-    margin:0;
-    padding:0;
-    color:black;
-    text-decoration:none;
-}
+        .caret_left {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            float: right;
+            margin-top: 6px;
+            vertical-align: middle;
+            border-top: 4px solid transparent;
+            border-left: 4px solid black;
+            border-bottom: 4px solid transparent;
+        }
 
-.nav li ul {
-    text-decoration:none;
-    margin:6px 0 0 0;
-    padding:0;
-    display:none;
-    position:absolute;
-    left:0;
-}
+        .dropdown-submenu {
+            position: relative;
+        }
 
-.nav li {
-    padding:5px 10px;
-    margin-right:0.25%;
-    margin-right:0.25%;
-    border-radius:5px;
-    border:#A9A9A9 1px solid;
-    list-style:none;
-    display:inline-block;
-    font-size:15px;
-    background:#DCDCDC;
-    position:relative;
-} 
+        .dropdown-submenu > .dropdown-menu { 
+            top:0;
+            left:100%;
+            margin-top:-6px;
+            margin-left:0px;
+            border-radius:0 0 4px 4px;
+        }
 
-.nav > li > a:hover {
-    background:#DCDCDC;
-}
+        .dropdown-submenu:hover > .dropdown-menu {
+            display:block;
+        }
+        
+    </style>
+    <body>
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Home</b></a>
+        </li>
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">News</b></a>
+        </li>
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Accepted Papers</b></a>
+        </li> 
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Awards</b></a>
+        </li>
 
-.nav li:hover > ul {
-    display:block;
-}
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Program<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Introduction for Presentations</a></li>
+                <li><a href="#">Program Handbook</a></li>
+                <li class="dropdown-submenu">
+                    <a href="#">Invited Speakers<b class="caret_left"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Peter Chou</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
 
-</style>
-</head>
-<body>
-<div id="total">
-    <div id="head">Header</div>
-    <div id="content">Content
-        <div class="left">Left</div>
-        <div class="middle">Middle</div>
-        <div class="right">Right</div>
-    </div>
-</div>
-<div id="footer">Footer</div>
-<ul class="nav">
-    <li class="parent"><a href="#">Home</a></li>
-    <li class="parent"><a href="#">News</a></li>
-    <li class="parent"><a href="#">Accepted Papers</a></li>
-    <li class="parent"><a href="#">Awards</a></li>
-    <li class="parent"><a href="#">Program</a>
-        <ul>
-            <li><a href="#">Introduction for Presentations</a></li>
-            <li><a href="#">Program Handbook</a></li>
-            <li><a href="#">Invited Speakers</a></li> 
-        </ul>
-    </li>
-    <li class="parent"><a href="#">Organization</a>
-        <ul>
-            <li><a href="#">Hosts & Sponsors</a></li>
-            <li><a href="#">Organization Team</a></li>
-            <li><a href="#">Program Commitee</a></li>
-        </ul>
-    </li>
-    <li class="parent"><a href="#">Call For Papers</a>
-        <ul>
-            <li><a href="#">Main Conference</a>
-                <ul>
-                    <li><a href="#">International</a>
-                        <ul>
-                            <li><a href="#">AIIS</a></li>
-                            <li><a href="#">IHB</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Domestic</a></li>   
-                </ul>
-            </li>
-            <li><a href="#">Workshops</a></li>
-            <li><a href="#">Demos & Exhibition</a></li>
-            <li><a href="#">Game Tournaments</a></li>
-        </ul>
-    </li>
-    <li class="parent"><a href="#">Registration</a>
-        <ul>
-            <li><a href="#">International</a></li>
-            <li><a href="#">Domestic</a></li>    
-        </ul> 
-    </li>
-    <li class="parent"><a href="#">Information Service</a>
-        <ul>
-            <li><a href="#">Accommodation</a></li>
-            <li><a href="#">Transportation</a></li>
-        </ul>
-    </li>       
-</ul>
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Organization<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Hosts & Sponsors</a></li>
+                <li><a href="#">Organization Team</a></li>
+                <li><a href="#">Progran Commitee</a></li>
+            </ul>
+        </li>
 
-</body>
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Call For Papers<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                    <a href="#">Main Conference<b class="caret_left"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a href="#">International<b class="caret_left"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">AIIS</a></li>
+                                <li><a href="#">IHB</a><li> 
+                            </ul>
+                        </li>
+                        <li><a href="#">Domestic</a></li> 
+                    </ul>
+                </li>
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Demos & Exhibition</a></li>
+                <li><a href="#">Game Tournaments</a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">Registration<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">International</a></li>
+                <li><a href="#">Domestic</a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown">
+        <a href="#" data-hover="dropdown">Information Service<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Accommodation</a></li>
+                <li><a href="#">Transportation</a></li>
+            </ul>
+        </li>
+   
+    </ul>
+    </body>
 </html>
+
