@@ -14,9 +14,9 @@
 }
 
 .context {
-    height: 800px;
+    height: 1000px;
     width: 800px;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 0px;
     background: blue;
 }
@@ -29,8 +29,14 @@
 }
 
 .menubar { 
-    margin: 10px 12%;
+    margin: 20px auto;
     padding:0px;
+}
+
+.nav {
+    width: 986px;
+    margin: auto;
+    float: none;
 }
 
 .container {
