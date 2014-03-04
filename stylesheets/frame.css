@@ -88,7 +88,7 @@
 }
 
 .title a {
-     font-family: "Cooper Std Black";
+    font-family: "Cooper Std Black";
     font-size: 14px; 
     color: gray;
 }
@@ -110,4 +110,10 @@
 .column ul {
 	margin:0;
 	padding:0;
+}
+
+.pagefoot {
+    padding:0;
+    height: 500px;
+    margin:0;
 }

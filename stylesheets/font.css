@@ -1,5 +1,6 @@
 .foot {
     padding:0px;
+    height: 15px;
     margin: 0 auto;
     font-family: "微軟正黑體";
     background: brown;
@@ -14,7 +15,6 @@
 .words {
     font-family: "微軟正黑體";
     font-size: 15px;
-    font-style: bold;
     color: orange;
 }
 
