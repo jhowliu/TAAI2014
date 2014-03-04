@@ -1,16 +1,8 @@
 .pictureBox {
-    height: 300px;
-    background: gray;
+    height: 250px;
+    background: #6C7A7D;
     margin: 0px auto;
     padding: 0px;
-}
-
-.contact {
-    padding:0px; border:1px solid;
-    margin:0px auto;
-    height: 200px;
-    width: 800px;
-    background: transparent;
 }
 
 .context {
@@ -18,13 +10,18 @@
     width: 800px;
     margin: 0px auto;
     padding: 0px;
-    background: pink;
+}
+
+.footerWrapper {
+    height: 180;
+    margin: auto;
+    padding:0;
+    background: #757D81;
 }
 
 .footer {
-    height: 200px;
+    height: 180px;
     width: 800px;
-    background: green;
     padding: 0px;
 	text-align: center;
     margin: auto;
@@ -32,7 +29,7 @@
 
 .wrapper {
     height: 50px;
-    background: black;
+    background: #B3BDBF;
     margin: 0px auto;
     padding: 0px;
 }
@@ -46,6 +43,10 @@
     width: 986px;
     margin:auto;
     float: none;
+}
+
+.nav a {
+    color: black;
 }
 
 .container {
@@ -82,22 +83,23 @@
 }
 
 .title {
+    margin-top: 5px;
     font-family: "微軟正黑體" "Verdana";
     font-size: 14px; 
-    color: #FFF000;
+    color: #181C1D;
 }
 
 .title a {
     font-family: "微軟正黑體" "Verdana";
     font-size: 14px; 
-    color: gray;
+    color: #181C1D;
 }
 
 .title:hover a{
     font-family: "微軟正黑體" "Verdana";
     font-size: 16px; 
     text-decoration: none;
-    color: white;
+    color: #1C2225;
 }
 
 .column {
@@ -111,4 +113,6 @@
 	margin:0;
 	padding:0;
 }
+
+
 
