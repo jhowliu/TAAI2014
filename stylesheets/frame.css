@@ -101,3 +101,36 @@
 .dropdown-submenu:hover > .dropdown-menu {
     display:block;
 }
+
+.title {
+    font-family: "Cooper Std Black";
+    font-size: 14px; 
+    color:#FF0000;
+     
+}
+
+.title:hover {
+    font-family: "Cooper Std Black";
+    font-size: 14px; 
+    a {
+	text-decoration: none
+	};
+    color:#FFFF00;
+}
+
+.column {
+	width:33%;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.footer{
+	width:800px;
+	margin:auto;
+	text-align:center;
+}
+
+.column ul {
+	margin:0;
+	padding:0;
+}
