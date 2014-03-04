@@ -3,29 +3,19 @@
     margin: 0 auto;
     font-family: "微軟正黑體";
     background: brown;
-    font-color: white;
+    color:white;
     font-size:12px;
 }
 
-.title {
-    font-family: "微軟正黑體";
-    font-size: 18px;
-    font-color: black;
-    font-style: bold;
+.foot a {
+    color: black;
 }
 
 .words {
     font-family: "微軟正黑體";
-    font-size: 12px;
-}
-
-.footer a {
-    color:gray;
-}
-
-.footer a:hover {
-    text-decoration:none;
-    color:red;
+    font-size: 15px;
+    font-style: bold;
+    color: orange;
 }
 
 .nav a:hover {

@@ -6,8 +6,7 @@
 }
 
 .contact {
-    padding:0px;
-    border:1px solid;
+    padding:0px; border:1px solid;
     margin:0px auto;
     height: 200px;
     width: 800px;
@@ -27,28 +26,8 @@
     width: 800px;
     background: green;
     padding: 0px;
-    margin: 0px auto;
-}
-
-.leftside {
-    padding: 0px;
-    width:250px;
-    float: left;
-    border: 1px solid;
-}
-
-.centerside {
-    padding: 0px;
-    width:250px;
-    border:1px solid;
-    float: left;
-}
-
-.rightside {
-    padding: 0px;
-    width: 250px;
-    border:1px solid;
-    float: left;
+	text-align: center;
+    margin: auto;
 }
 
 .wrapper {
@@ -105,29 +84,27 @@
 .title {
     font-family: "Cooper Std Black";
     font-size: 14px; 
-    color:#FF0000;
-     
+    color: #FFF000;
 }
 
-.title:hover {
-    font-family: "Cooper Std Black";
+.title a {
+     font-family: "Cooper Std Black";
     font-size: 14px; 
-    a {
-	text-decoration: none
-	};
-    color:#FFFF00;
+    color: gray;
+}
+
+.title:hover a{
+    font-family: "Cooper Std Black";
+    font-size: 16px; 
+    text-decoration: none;
+    color: white;
 }
 
 .column {
 	width:33%;
 	display:inline-block;
+    margin-top: 15px;
 	vertical-align:top;
-}
-
-.footer{
-	width:800px;
-	margin:auto;
-	text-align:center;
 }
 
 .column ul {
