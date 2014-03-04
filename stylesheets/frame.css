@@ -7,15 +7,15 @@
 
 .contact {
     padding:0px;
+    border:1px solid;
     margin:0px auto;
-    border: 1px solid;
-    height: 300px;
+    height: 200px;
     width: 800px;
     background: transparent;
 }
 
 .context {
-    height: 1000px;
+    height: 800px;
     width: 800px;
     margin: 0px auto;
     padding: 0px;
@@ -23,7 +23,8 @@
 }
 
 .footer {
-    height: 300px;
+    height: 200px;
+    width: 800px;
     background: green;
     padding: 0px;
     margin: 0px auto;
@@ -31,24 +32,23 @@
 
 .leftside {
     padding: 0px;
-    margin: 0px;
     width:250px;
-    border: 1px solid;
     float: left;
+    border: 1px solid;
 }
 
 .centerside {
     padding: 0px;
-    margin: 0px auto;
-    border: 1px solid; 
+    width:250px;
+    border:1px solid;
+    float: left;
 }
 
 .rightside {
     padding: 0px;
-    margin: 0px;
     width: 250px;
-    border: 1px solid;
-    float: right;
+    border:1px solid;
+    float: left;
 }
 
 .wrapper {

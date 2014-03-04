@@ -1,18 +1,34 @@
 .foot {
     padding:0px;
-    margin: 0;
-    background:brown;
+    margin: 0 auto;
+    font-family: "微軟正黑體";
+    background: brown;
+    font-color: white;
     font-size:12px;
 }
 
 .title {
-    font-size: 25px;
+    font-family: "微軟正黑體";
+    font-size: 18px;
     font-color: black;
     font-style: bold;
 }
 
-a:hover {
+.words {
+    font-family: "微軟正黑體";
+    font-size: 12px;
+}
+
+.footer a {
+    color:gray;
+}
+
+.footer a:hover {
     text-decoration:none;
+    color:red;
+}
+
+.nav a:hover {
     color:red;
 }
 
