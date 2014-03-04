@@ -1,18 +1,19 @@
 .foot {
-    font-size: 40px;
+    padding:0px;
+    margin: 0;
+    background:brown;
+    font-size:12px;
+}
+
+.title {
+    font-size: 25px;
+    font-color: black;
+    font-style: bold;
 }
 
 a:hover {
     text-decoration:none;
     color:red;
-}
-
-.title {
-    font-family: "Cooper Std Black";
-}
-
-.overtitle {
-    font-family: "Cooper Std Black";
 }
 
 pre {

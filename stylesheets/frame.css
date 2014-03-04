@@ -1,8 +1,25 @@
 .pictureBox {
     height: 300px;
-    background: red;
+    background: gray;
     margin: 0px auto;
     padding: 0px;
+}
+
+.contact {
+    padding:0px;
+    margin:0px auto;
+    border: 1px solid;
+    height: 300px;
+    width: 800px;
+    background: transparent;
+}
+
+.context {
+    height: 1000px;
+    width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    background: pink;
 }
 
 .footer {
@@ -12,20 +29,26 @@
     margin: 0px auto;
 }
 
-.context {
-    height: 1000px;
-    width: 800px;
-    margin: 0px auto;
+.leftside {
     padding: 0px;
-    background: blue;
+    margin: 0px;
+    width:250px;
+    border: 1px solid;
+    float: left;
 }
 
-.footer {
-    text-align: center;
-    height: 200px;
-    background: green;
+.centerside {
     padding: 0px;
     margin: 0px auto;
+    border: 1px solid; 
+}
+
+.rightside {
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    border: 1px solid;
+    float: right;
 }
 
 .wrapper {
