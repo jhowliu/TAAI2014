@@ -1,72 +1,62 @@
 .pictureBox {
-    height: 300px;
-    background: gray;
+    height: 200px; width: 950px;
+    background: red;
     margin: 0px auto;
     padding: 0px;
 }
 
-.contact {
-    padding:0px;
-    margin:0px auto;
-    border: 1px solid;
-    height: 300px;
-    width: 800px;
-    background: transparent;
+.footerWrapper {
+    background-image:url(back.jpg);
+    padding: 20px 0;
+    margin: 0px auto;
+    color: #FFFFFF; 
+   
 }
+
+	
 
 .context {
     height: 1000px;
     width: 800px;
-    margin: 0px auto;
+    margin: 5px auto;
     padding: 0px;
-    background: pink;
+    margin: 10px 12% 10px 15%;
+    padding: 0;
 }
 
-.footer {
-    height: 300px;
-    background: green;
-    padding: 0px;
-    margin: 0px auto;
-}
-
-.leftside {
-    padding: 0px;
-    margin: 0px;
-    width:250px;
-    border: 1px solid;
-    float: left;
-}
-
-.centerside {
-    padding: 0px;
-    margin: 0px auto;
-    border: 1px solid; 
-}
-
-.rightside {
-    padding: 0px;
-    margin: 0px;
-    width: 250px;
-    border: 1px solid;
-    float: right;
+.context {
+    height: 800px;
+    width: 800px;
+    margin: 10px 12% 0 20%;
+    padding: 0;
+    background: blue;
 }
 
 .wrapper {
     height: 50px;
     background: black;
-    margin: 0px auto;
     padding: 0px;
 }
 
 .menubar { 
-    margin: 0px auto;
+    margin: 20px auto;
     padding:0px;
 }
 
 .nav {
     width: 986px;
-    margin:auto;
+    margin: auto;
     float: none;
+}
+
+.menubar {
+    margin: 20px auto;
+    padding:0;
+}
+.nav{
+    width:986px;
+    margin:auto;
+    float:none;
 }
 
 .container {
@@ -100,4 +90,34 @@
 
 .dropdown-submenu:hover > .dropdown-menu {
     display:block;
+}
+
+.title {
+    font-family: "Cooper Std Black";
+    font-size: 14px; 
+    color:#FF0000;
+     
+}
+.title:hover {
+    font-family: "Cooper Std Black";
+    font-size: 14px; 
+    a {
+	text-decoration: none
+	};
+    color:#FFFF00;
+
+}
+.column{
+	width:33%;
+	display:inline-block;
+	vertical-align:top;
+}
+.footer{
+	width:800px;
+	margin:auto;
+	text-align:center;
+}
+.column ul{
+	margin:0;
+	padding:0;
 }

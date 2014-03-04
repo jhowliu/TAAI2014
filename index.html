@@ -4,13 +4,29 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="./stylesheets/frame.css" type="text/css" rel="stylesheet">
-        <link href="./stylesheets/font.css" type="text/css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="./javascripts/bootstrap-hover-dropdown.min.js"></script>
+		  	
     </head>  
+    <style type="text/css">
+    <!--
+	pre{border:0px;
+	background-color:transparent;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "Cooper Std Black";
+
+	}
+	a:link{color:#D1EEEE}
+	a:visited{color:#D1EEEE}
+	a:hover{text-decoration: none;
+		color: #FFFF00}
+    -->
+    </style>
     <body>
     <div class="pictureBox">
     </div>
@@ -21,9 +37,6 @@
             <a href="#" data-hover="dropdown">Home</b></a>
         </li>
         <li class="dropdown">
-            <a href="#" data-hover="dropdown">News</b></a>
-        </li>
-        <li class="dropdown">
             <a href="#" data-hover="dropdown">Accepted Papers</b></a>
         </li> 
         <li class="dropdown">
@@ -31,12 +44,12 @@
         </li>
 
         <li class="dropdown">
-            <a href="#" data-delay=1000 data-toggle="dropdown" data-hover="dropdown">Program<b class="caret"></b></a>
+            <a href="#" data-hover="dropdown">Program<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Introduction for Presentations</a></li>
                 <li><a href="#">Program Handbook</a></li>
                 <li class="dropdown-submenu">
-                    <a data-toggle="dropdown" data-delay=1000 href="#">Invited Speakers<b class="caret_left"></b></a>
+                    <a href="#">Invited Speakers<b class="caret_left"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Peter Chou</a></li>
                     </ul>
@@ -45,7 +58,7 @@
         </li>
 
         <li class="dropdown">
-            <a href="#" data-delay=1000 data-toggle="dropdown" data-hover="dropdown">Organization<b class="caret"></b></a>
+            <a href="#" data-hover="dropdown">Organization<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Hosts & Sponsors</a></li>
                 <li><a href="#">Organization Team</a></li>
@@ -54,13 +67,13 @@
         </li>
 
         <li class="dropdown">
-            <a href="#" data-delay=1000 data-toggle="dropdown" data-hover="dropdown">Call For Papers<b class="caret"></b></a>
+            <a href="#" data-hover="dropdown">Call For Papers<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
-                    <a data-delay=1000 data-toggle="dropdown">Main Conference<b class="caret_left"></b></a>
+                    <a href="#">Main Conference<b class="caret_left"></b></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-submenu">
-                            <a href="#" data-toggle="dropdown" data-delay=1000>International<b class="caret_left"></b></a>
+                            <a href="#">International<b class="caret_left"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">AIIS</a></li>
                                 <li><a href="#">IHB</a><li> 
@@ -76,7 +89,7 @@
         </li>
 
         <li class="dropdown">
-            <a href="#" data-delay=1000 data-toggle="dropdown" data-hover="dropdown">Registration<b class="caret"></b></a>
+            <a href="#" data-hover="dropdown">Registration<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="#">International</a></li>
                 <li><a href="#">Domestic</a></li>
@@ -84,34 +97,36 @@
         </li>
 
         <li class="dropdown">
-        <a href="#" data-delay=1000 data-toggle="dropdown" data-hover="dropdown">Information Service<b class="caret"></b></a>
+        <a href="#" data-hover="dropdown">Information Service<b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Accommodation</a></li>
                 <li><a href="#">Transportation</a></li>
             </ul>
         </li>
-        
+        <li class="dropdown">
+            <a href="#" data-hover="dropdown">News</b></a>
+        </li>
     </ul>
     </div>
     </div>
     <div class="context">
-        
+        <h1> AAAA</h1>
     </div>
-
-    <div class="footer">
-        <div class="contact">
-            <div class="leftside">
-                <pre align=center class="title">F&Q</pre>
-            </div>
-            <div class="rightside">
-                <pre align=center class="title">Link</pre>
-            </div>
-            <div class="centerside">
-                <pre align=center class="title">Contact</pre>
-            </div>
-        </div>
-        <p class="foot" align=center><a>Design by NTUST</a></p>
+   
+    <div class="footerWrapper">
+	    <div class="footer">
+		<div class="column">
+			<p>FAQ</p>
+		</div>
+		<div class="column">
+			<p>Contact</p>
+			<div>Email</div>
+		</div>
+		<div class="column">
+			<p>Link</p>
+			<div  class="title">&#9642<a href="http://taai2013.nccu.edu.tw/" target=_blank> TAAI2013</a></div>
+		</div>
+	    </div>
     </div>
     </body>
 </html>
-
