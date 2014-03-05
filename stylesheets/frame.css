@@ -13,15 +13,15 @@
 }
 
 .footerWrapper {
-    height: 180;
+    height: 180px;
     margin: 0 auto;
     padding:0;
     background: #8C969B;
 }
 
 .footer {
-    height: 180px;
-    width: 800px;
+    border: 1px solid;
+    height: 200px;
     padding: 0px;
 	text-align: center;
     margin: auto;
@@ -30,6 +30,7 @@
 .wrapper {
     height: 50px;
     background: #B3BDBF;
+    border-style: double;
     margin: 0px auto;
     padding: 0px;
 }
