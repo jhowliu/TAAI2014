@@ -18,17 +18,16 @@
 }
 
 .footerWrapper {
+    border: 1px solid;
     height: 180px;
-    width: 1000px;
     margin: 0 auto;
     padding:0;
     background: #8C969B;
 }
 
 .footer {
-    border: 1px solid;
+    width: 900px; 
     height: 180px;
-    width:1000px;
     padding: 0px;
 	text-align: center;
     margin: auto;
@@ -122,5 +121,14 @@
 	padding:0;
 }
 
+.dropdown-menu > li > a:hover {
+    background: darkgray;
+} 
 
+.dropdown-menu {
+    background: #E9E4E4; 
+}
 
+.nav .open > a, .nav .open > a:hover {
+    background: darkgray;
+}
