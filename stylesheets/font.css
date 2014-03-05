@@ -1,8 +1,8 @@
 .foot {
     padding:0px;
-    margin: 0px;
+    margin-top: -20px;
     text-align:center;
-    height:20px;
+    height:20px; 
     font-family: "微軟正黑體" "Verdana";
     background: #4B4D4E;
     color:white;

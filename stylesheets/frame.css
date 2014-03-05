@@ -12,8 +12,14 @@
     padding: 0px;
 }
 
+.navbar-nav > li > a {
+    padding-top: 13.5px;
+    padding-bottom: 10px;
+}
+
 .footerWrapper {
     height: 180px;
+    width: 1000px;
     margin: 0 auto;
     padding:0;
     background: #8C969B;
@@ -21,7 +27,8 @@
 
 .footer {
     border: 1px solid;
-    height: 200px;
+    height: 180px;
+    width:1000px;
     padding: 0px;
 	text-align: center;
     margin: auto;
@@ -107,7 +114,8 @@
 	width:33%;
 	display:inline-block;
     margin-top: 15px;
-	vertical-align:top; }
+	vertical-align:top;
+}
 
 .column ul {
 	margin:0;
