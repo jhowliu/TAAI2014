@@ -129,6 +129,11 @@
     background: #E9E4E4; 
 }
 
-.nav .open > a, .nav .open > a:hover {
+.nav .open > a:hover, .nav .open > a {
     background: darkgray;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background: darkgray;
+    text-decoration: none;
 }
